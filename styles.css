@@ -1,9 +1,13 @@
 body {
-    background-color: beige;
+    background-color: #435663;
+    font-size: 18px;
+    color: #fff8d4;
 }
 
 .header {
     padding: 15px;
+    vertical-align: middle;
+    background-color: #313647;
 }
 
 .header h1 {
@@ -28,8 +32,8 @@ hr {
 }
 
 .about {
-    padding-right: 35%;
+    padding: 5px;
     width: 65%;
-    align-content: left;
     text-align: left;
+    align-items: center;
 }
