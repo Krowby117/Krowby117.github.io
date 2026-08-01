@@ -1,0 +1,35 @@
+body {
+    background-color: beige;
+}
+
+.header {
+    padding: 15px;
+}
+
+.header h1 {
+    display: inline-block;
+    width: 85%;
+}
+
+.header nav {
+    display: inline-block;
+    align-items: right;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+
+.hr_left {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.about {
+    padding-right: 35%;
+    width: 65%;
+    align-content: left;
+    text-align: left;
+}
