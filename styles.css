@@ -1,11 +1,26 @@
+html,
+body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: #435663;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff8d4;
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     padding: 15px;
+    margin-bottom: 0.5%;
     vertical-align: middle;
     background-color: #313647;
 }
@@ -13,6 +28,7 @@ body {
 .header h1 {
     display: inline-block;
     width: 85%;
+    font-style: italic;
 }
 
 .header nav {
@@ -23,7 +39,7 @@ body {
 hr {
     border: none;
     height: 2px;
-    background-color: black;
+    background-color: #313647;
 }
 
 .hr_left {
@@ -31,9 +47,53 @@ hr {
     margin-right: auto;
 }
 
+.introContainer {
+    display: flex;
+    align-items: flex;
+    gap: 1%;
+}
+
+.pfp {
+    margin: 2%;
+    display: inline-block;
+    max-width: 25%;
+    outline: 2px solid white;
+}
+
 .about {
+    display: inline-block;
     padding: 5px;
     width: 65%;
     text-align: left;
     align-items: center;
+}
+
+.sectionTitle {
+    margin: 1%;
+    font-style: bold;
+}
+
+.skills {
+    margin: 0;
+    gap: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.skillsColumn {
+    flex: 0 0 30%;
+    box-sizing: border-box;
+    padding: 0% 2%;
+    color: #fff8d4;
+    background-color: #313647;
+}
+
+.skillsColumn hr {
+    background-color: #fff8d4;
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
